@@ -1,5 +1,7 @@
 body{
   background-color: aliceblue;
+  min-width: 100%;
+  width: 100%;
 }
   .underline{
     margin-top: 70px;
@@ -83,4 +85,62 @@ h2{
   color: brown;
   font-size: 24px;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+  .underline{
+   font-size: 16px;
+   margin-top: 10%;
+   }
+   
+   .underline::after {
+    margin-left: -13%;
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: chocolate;
+    position: absolute;
+    margin-top: 7%;
+   
+   }
+
+   .buttons{
+   gap: 5px;
+   display: inline-flex;
+   margin-left: 80px;
+   
+   }
+ 
+button{
+margin-top: 5%;
+font-size: 10px;
+}
+   .sub-container{ 
+    margin-top: 50px;
+    display:grid;
+   grid-template-columns: repeat(2, 2fr);
+  gap: 50px;
+  }
+  img{
+    width: 34%;
+  border: 2px solid chocolate;
+  }
+  h2{
+    font-size: 10px;
+    margin-left: 40%;
+    margin-bottom: -12px
+  }
+
+  p{
+    font-size: 4px;
+  }
+
+  h5{
+    font-size: 4px;
+  }
+
+  hr{
+    margin-left: 40%;
+  
+  }
 }
