@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/punishment2/static/css/main.b9ab4a6a.css",
+    "main.css": "/punishment2/static/css/main.23d6202a.css",
     "main.js": "/punishment2/static/js/main.28111f17.js",
     "index.html": "/punishment2/index.html",
-    "main.b9ab4a6a.css.map": "/punishment2/static/css/main.b9ab4a6a.css.map",
+    "main.23d6202a.css.map": "/punishment2/static/css/main.23d6202a.css.map",
     "main.28111f17.js.map": "/punishment2/static/js/main.28111f17.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9ab4a6a.css",
+    "static/css/main.23d6202a.css",
     "static/js/main.28111f17.js"
   ]
 }
