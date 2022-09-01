@@ -64,21 +64,6 @@ const Files = () => {
 
         })}
 
-      {/* <div className="price">
-        {items.map((data) => {
-          
-        })}
-      </div>
-      <div className="image">
-        {items.map((data) => {
-          return 
-        })}
-      </div>
-      <div className="description">
-        {items.map((data) => {
-          return 
-        })}
-      </div> */}
     </div>
   );
 };
