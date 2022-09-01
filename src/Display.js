@@ -1,4 +1,5 @@
 import React from "react";
+import Files from "./Files";
 // import { useState } from 'react'
 
 const Display = () => {
@@ -18,24 +19,10 @@ const Display = () => {
         </nav>
         <div className="sub-container">
           <div>
-            <h2>meats</h2>
-            <h5>$1.09</h5>
-           
-            <img
-              src="https://media.istockphoto.com/photos/balanced-diet-food-background-picture-id1151799593?k=20&m=1151799593&s=612x612&w=0&h=jRs5hyc8u1QZ1hqL5IrPQTwyXqG_i2KGyYDlN7IbCzY="
-              alt=""
-            />
-             <hr />
-            <p>
-              pork,beef,chicken,sharki,roundabout,gizzards,<br/>
-              meat,pork,beef,roundabout,gizzards,<br/>
-              meat,pork,beef,chicken,porkroundabout,gizzards,<br/>
-              meat,pork,beef,chicken,sharki,roundabout,gizzards,<br/>
-              meat,pork,beef,chicken,sharki,roundabout,gizzards<br/>
-            </p>
+         <Files/>
           </div>
 
-          <div>
+          {/* <div>
             <h2>swallow</h2>
             <h5>$5.76</h5>
             <img
@@ -48,9 +35,9 @@ const Display = () => {
               wine,smoothies,water,enegry drinks,milkshakes juice,<br/>
               wine,smoothies,water,enegry drinks,milkshakes<br/>
             </p>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <h2>Non-alcholic</h2>
             <h5>$2.76</h5>
             <img src="https://7omcu3a78zp40klds2w28klr-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/GettyImages-900247658-350x233.jpg" alt="" />
@@ -60,8 +47,8 @@ const Display = () => {
               wine,smoothies,water,enegry drinks,milkshakes juice,<br/>
               wine,smoothies,water,enegry drinks,milkshakes<br/>
             </p>
-          </div>
-
+          </div> */}
+{/* 
           <div>
             <h2>Launch</h2>
             <h5>$3.45</h5>
@@ -76,7 +63,7 @@ const Display = () => {
               donuts,meatpies,fishpie,sausageroll,meatballs eggrolls,<br/>
               donuts,meatpies,fishpie,sausageroll,meatballs<br/>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
